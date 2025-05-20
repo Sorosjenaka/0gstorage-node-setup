@@ -13,6 +13,8 @@ sudo apt install curl wget git screen unzip jq -y
 wget https://raw.githubusercontent.com/WillEnyong/0gstorage/main/run.sh
 chmod +x run.sh
 ./run.sh
+#Klik 1 auto fast
+#Setelah itu Import Private Key
 ```
 Step 3: Update Konfigurasi
 
