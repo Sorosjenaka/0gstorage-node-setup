@@ -1,6 +1,10 @@
 # 0gstorage-node-setup
 Setup and configuration guide for 0gstorage node
 
+Your wallet Must have 0.1 0g For run this node
+
+Please visit to claim Faucet : https://faucet.0g.ai/
+
 ## Step 1: Update dan Install Dependencies
 
 ```bash
@@ -13,8 +17,8 @@ sudo apt install curl wget git screen unzip jq -y
 wget https://raw.githubusercontent.com/WillEnyong/0gstorage/main/run.sh
 chmod +x run.sh
 ./run.sh
-#Klik 1 auto fast
-#Setelah itu Import Private Key
+#klik 1 auto fast
+#After that Import your Private Key
 ```
 Step 3: Update Konfigurasi
 
