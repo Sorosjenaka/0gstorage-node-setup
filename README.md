@@ -5,6 +5,10 @@ Your wallet Must have 0.1 0g For run this node
 
 Please visit to claim Faucet : https://faucet.0g.ai/
 
+Please Follow my X : https://x.com/0xsoros
+
+Thanks you for support me 
+
 ## Step 1: Update dan Install Dependencies
 
 ```bash
@@ -20,7 +24,10 @@ chmod +x run.sh
 #klik 1 auto fast
 #After that Import your Private Key
 ```
-Step 3: Update Konfigurasi
+Please Close your Vps and open agaian or
+you can press ctrl+c and you can follow step 3
+
+## Step 3: Update Konfigurasi
 
 ```bash
 systemctl stop zgs
@@ -31,11 +38,11 @@ sed -i 's/^reward_contract *= *.*/reward_contract = "0xdf758Bd14306482DeCbeF186e
 
 rm -rf $HOME/0g-storage-node/run/db
 ```
-Step 4: Start Ulang Node
+## Step 4: Start Ulang Node
 
 ```bash
 systemctl start zgs
 ```
-Step 5: Cek Log Node
+## Step 5: Cek Log Node
 ```bash
 tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
