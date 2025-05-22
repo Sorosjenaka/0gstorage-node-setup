@@ -24,7 +24,8 @@ chmod +x run.sh
 #klik 1 auto fast
 #After that Import your Private Key
 ```
-Please Close your Vps and open agaian or
+Please Close your Vps and open again or
+
 you can press ctrl+c and you can follow step 3
 
 ## Step 3: Update Konfigurasi
